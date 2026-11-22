@@ -1,0 +1,30 @@
+:root {
+  color-scheme: light;
+
+  /* Paleta editorial */
+  --color-ivory: #f5f0e8;
+  --color-ivory-deep: #ece3d5;
+  --color-champagne: #d8c4a0;
+  --color-bronze: #89745e;
+  --color-charcoal: #34302c;
+  --color-ink-soft: rgba(52, 48, 44, 0.68);
+  --color-line: rgba(137, 116, 94, 0.34);
+
+  /* Tipografía */
+  --font-display: "Cormorant Garamond", "Didot", "Bodoni MT", Georgia, serif;
+  --font-sans: "Jost", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --text-2xs: 0.68rem;
+  --text-xs: 0.78rem;
+  --text-base: clamp(0.95rem, 0.9rem + 0.2vw, 1.0625rem);
+  --text-name: clamp(3rem, 13vw, 4.75rem);
+  --text-invitation-title: clamp(1.9rem, 6vw, 3.1rem);
+
+  /* Composición */
+  --cover-gutter: clamp(0.75rem, 3vw, 1.75rem);
+  --frame-line: 1px solid var(--color-line);
+  --shadow-soft: 0 24px 60px -32px rgba(52, 48, 44, 0.35);
+
+  /* Movimiento */
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
